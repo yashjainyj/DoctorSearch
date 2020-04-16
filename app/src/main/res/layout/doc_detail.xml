@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/background1">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="118dp"
+            android:layout_height="113dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="-92dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/user" />
+        <EditText
+        android:id="@+id/editText4"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:background="@drawable/edit_text"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textAlignment="viewStart"
+        android:background="@drawable/edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText4"
+        android:text="  Gender"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="320dp"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="-37dp"
+            android:text="Female" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:background="@drawable/edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:hint="Phone number"
+        android:layout_marginTop="15dp"
+        android:inputType="number|phone" />
+
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/edit_text"
+            android:layout_centerHorizontal="true"
+            android:hint="Address"
+            android:inputType="text"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/editText3"/>
+
+        <EditText
+            android:id="@+id/fee"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/edit_text"
+            android:layout_centerHorizontal="true"
+            android:hint="Fee"
+            android:inputType="number"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/address"/>
+
+        <EditText
+            android:id="@+id/special"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/edit_text"
+            android:layout_centerHorizontal="true"
+            android:focusable="false"
+            android:hint="Specialization"
+            android:inputType="text"
+            android:layout_marginTop="200dp"
+           />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"
+        android:layout_below="@+id/fee"
+        />
+
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+</RelativeLayout>

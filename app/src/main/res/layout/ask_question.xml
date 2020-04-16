@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/background1">
+
+    <EditText
+
+        android:id="@+id/prblm"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/edit_text"
+        android:hint="Treatment pref."
+        android:inputType=""
+        android:focusable="false"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/down" />
+    <EditText
+
+        android:id="@+id/title1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text"
+        android:hint="Title"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:layout_below="@+id/prblm"/>
+
+    <EditText
+
+        android:id="@+id/description"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text"
+        android:hint="Description"
+        android:inputType="text"
+        android:layout_below="@+id/title1"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submit"
+        android:layout_below="@id/description"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:text="Submit" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:id="@+id/textq"/>
+</RelativeLayout>

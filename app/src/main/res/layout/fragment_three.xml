@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"   >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:text="Too busy to see a Doctor \n Chat online instead"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo1" />
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="182dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/livechat" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="435dp"
+        android:background="#FFFFFF"
+        android:text="Get Started"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="My account" android:id="@+id/account"></item>
+    <item android:title="About" android:id="@+id/about"></item>
+    <item android:id="@+id/Feedback" android:title="Feedback"></item>
+    <item android:id="@+id/Help" android:title="Help"></item>
+    <item android:id="@+id/rate" android:title="Rate us"></item>
+    <item android:title="Contact Customer Care" android:id="@+id/lcc"></item>
+    <item android:id="@+id/logout" android:title="Log out"></item>
+
+
+</menu>

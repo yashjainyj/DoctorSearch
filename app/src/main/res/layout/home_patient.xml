@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"  android:background="@drawable/background1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/weq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10dp" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="When the Neurologist Really Knows How Patients Feel..."
+                android:id="@+id/article"
+                android:background="@drawable/button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"/>
+<EditText
+    android:layout_width="285dp"
+    android:layout_height="100dp"
+    android:id="@+id/o1"
+   android:layout_alignParentRight="true"
+    android:textAlignment="center"
+    android:background="@drawable/edit_text"
+    android:focusable="false"
+    android:layout_below="@+id/w"
+    android:layout_marginTop="60dp"
+    />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="53dp"
+        android:layout_height="61dp"
+        android:layout_alignBottom="@+id/r"
+        android:layout_marginStart="75dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/doctor" />
+
+    <TextView
+        android:id="@+id/searchdoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="75dp"
+        android:text="Search Doctor "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="105dp"
+        android:text="Urologist, Cardiology , Dentist , Psychology"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="285dp"
+        android:layout_height="100dp"
+        android:id="@+id/o2"
+        android:layout_alignParentLeft="true"
+        android:textAlignment="center"
+        android:background="@drawable/edit_text"
+        android:focusable="false"
+        android:layout_below="@+id/o1"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="50dp"
+    android:layout_marginTop="208dp"
+        android:layout_marginLeft="5dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/app" />
+
+        <TextView
+            android:id="@+id/searchdoc"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="205dp"
+            android:text="Book appointment "
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="235dp"
+        android:text="You can book your appointment here "
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="285dp"
+        android:layout_height="100dp"
+        android:id="@+id/o3"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:background="@drawable/edit_text"
+        android:focusable="false"
+        android:layout_below="@+id/o2"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+       android:layout_marginTop="465dp"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ask" />
+
+    <TextView
+        android:id="@+id/searchdoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_marginStart="65dp"
+       android:layout_marginTop="465dp"
+        android:text="Ask a free question "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="490dp"
+        android:text="Get answers from doctor and experts "
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="285dp"
+        android:layout_height="100dp"
+        android:id="@+id/o4"
+        android:layout_alignParentLeft="true"
+        android:textAlignment="center"
+        android:background="@drawable/edit_text"
+        android:focusable="false"
+        android:layout_below="@+id/o3"
+        android:layout_marginTop="30dp"
+        />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="85dp"
+               android:layout_marginTop="340dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/reminder" />
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="124dp"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="340dp"
+                android:text="Medicine Reminder "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="370dp"
+        android:text="Get alerts so you never miss a dose "
+        android:textSize="15dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

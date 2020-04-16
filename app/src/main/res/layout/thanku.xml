@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"  android:background="@drawable/background1">
+
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="169dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/thumbs" />
+
+
+    <TextView
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:text="Thank You"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        android:text="Your question has been posted."
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:text="we'll notify you when it is answered"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+</RelativeLayout>

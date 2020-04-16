@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:text=""
+        />
+
+               <TableLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerInParent="true">
+
+                   <TableRow>
+                  <TextView />
+                       <ImageButton
+                           android:layout_width="155dp"
+                           android:layout_height="130dp"
+                           android:src="@drawable/kidneys"
+                           android:scaleType="center"
+                           android:contentDescription="@string/todo"
+                           tools:ignore="ContentDescription"
+                           android:background="@null"
+                           android:layout_column="1"
+                           android:id="@+id/kidney"
+                            android:layout_weight="1"
+                           />
+
+                       <ImageButton
+                           android:scaleType="center"
+                           android:layout_width="155dp"
+android:layout_weight="1"
+                           android:id="@+id/illness"
+                           android:layout_height="130dp"
+                           android:src="@drawable/illness"
+                           android:contentDescription="@string/todo"
+                           tools:ignore="ContentDescription"
+                           android:background="@null"
+                           android:layout_column="2"/>
+                   </TableRow>
+                   <TextView android:layout_marginStart="40dp"/>
+                   <TableRow>
+                       <TextView android:text="   Urologist" android:textSize="17dp"  android:layout_weight="1" android:layout_column="1"/>
+                       <TextView android:text="    Psychology" android:textSize="17dp" android:layout_weight="1" android:layout_column="2"/>
+                   </TableRow>
+                   <TextView android:layout_marginStart="40dp"/>
+                   <TableRow>
+                       <ImageButton
+                           android:scaleType="center"
+                           android:layout_width="130dp"
+                           android:layout_height="130dp"
+                            android:layout_weight="1"
+                           android:src="@drawable/gum"
+                           android:contentDescription="@string/todo"
+                           tools:ignore="ContentDescription"
+                           android:id="@+id/dentist"
+                           android:background="@null"
+                           android:layout_column="1"
+                           />
+
+                       <ImageButton
+                            android:scaleType="center"
+                           android:layout_width="130dp"
+                           android:layout_height="130dp"
+                           android:src="@drawable/heart"
+                           android:id="@+id/heart"
+                           android:contentDescription="@string/todo"
+                           tools:ignore="ContentDescription"
+                           android:background="@null"
+                            android:layout_weight="1"
+                           android:layout_column="2"/>
+
+                   </TableRow>
+                   <TableRow>
+                       <TextView android:text=" Dentist" android:textSize="17dp" android:layout_weight="1" android:layout_column="1"/>
+                       <TextView android:text="   Cardiology" android:textSize="17dp" android:layout_weight="1" android:layout_column="2"/>
+                   </TableRow>
+
+               </TableLayout>
+
+       </RelativeLayout>
